@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUPPLIERS</title>
+    <style>
+        body{
+            background-color: black;
+            color: aliceblue;
+        }
+        .navbar{
+            width: 100%;
+            position: fixed;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+        .navbar img{
+            margin: 10px 0px;
+        }
+        .menuitems{
+            display: flex;
+            flex-direction: row;
+        }
+        .menuitems li{
+            list-style: none;
+            margin: 35px 20px;
+            font-size: small;
+            font-weight: bold;
+        }
+        .menuitems li a{
+            color: white;
+            text-decoration: none;
+        }
+        .menuitems li a:hover{
+            border-bottom: 2px solid white;
+        }
+        .supplier{
+            color: aliceblue;
+            padding: 160px 110px;
+            padding-bottom: 30px;
+        }
+        .supplier h1{
+            font-weight: bold;
+            padding-bottom: 30px;
+        }
+        .container{
+            display: flex;
+            flex-direction: row;
+        }
+        .container button{
+            padding: 10px 20px;
+            background-color: transparent;
+            color: white;
+            border: 2px solid white;
+            font-weight: bold;
+        }
+        .container button:hover{
+            background-color: white;
+            color: black;
+        }
+        .cont{
+            padding-left: 120px;
+        }
+        .footer{
+            background-color: black;
+            color: white;
+            height: 10vh;
+            padding-top: 100px;
+        }
+        .footer ul{
+            list-style: none;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+        .footer ul li{
+            padding: 15px;
+            font-style: oblique;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <img src="logo.png" width="200px" height="70px">
+            </div>
+            <div class="menu">
+                <ul class="menuitems">
+                    <li><a href="/vehicles/falcon-9/" >FALCON9</a></li>
+                    <li><a href="/vehicles/falcon-heavy/" >FALCON HEAVY</a></li>
+                    <li><a href="/vehicles/dragon/" >DRAGON</a></li>
+                    <li><a href="/vehicles/starship/" >STARSHIP</a></li>
+                    <li><a href="/humanspaceflight/" >HUMAN SPACEFLIGHT</a></li>
+                    <li><a href="/rideshare/" >RIDESHARE</a></li>
+                    <li><a href="/starshield/" >STARSHIELD</a></li>
+                    <li><a href="https://www.starlink.com" target="_">STARLINK</a></li>
+                    <li><a href="#" >SHOP</a></li>
+            </div>
+        </nav>
+        <div class="supplier">
+            <h1>BECOMING A SUPPLIER</h1>
+            <p>SpaceX is committed to including diverse suppliers in our sourcing process, which enhances our ability to provide the most reliable, high-quality, and cost-effective products and services.</p><br>
+            <p>While SpaceX develops and manufactures its technologies and products in-house, often times we can leverage specialized, small, nimble, or local suppliers that enable us to achieve our goals.</p>
+        </div>
+        <div class="container">
+            <div class="cont">
+                Interested in doing business with us?<br><br>
+                <button onclick="window.location.href='mailto:your-email@example.com';">EMAIL US</button>
+            </div>
+            <div class="cont">
+                Already a supplier?<br><br>
+                <button onclick="window.location.href='password.html';">VIEW DOCUMENTATION</button>
+            </div>
+        </div>
+        <footer class="footer">
+            <ul>
+                <li>SPACEX &COPY; 2024</li>
+                <li><a href="https://www.spacex.com/media/privacy_policy_spacex.pdf" style="text-decoration: none;color:white">PRIVACY POLICY</a></li>
+                <li><a href="suppliers.html" style="text-decoration: none;color:white">SUPPLIERS</a></li>
+            </ul>
+        </footer>
+</body>
+</html>
